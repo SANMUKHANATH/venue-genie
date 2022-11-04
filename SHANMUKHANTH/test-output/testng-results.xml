@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-04T21:00:17 IST" name="Default suite" finished-at="2022-11-04T21:00:18 IST" duration-ms="634">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner$Runn@c33b74f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-11-04T21:00:17 IST" name="Default test" finished-at="2022-11-04T21:00:18 IST" duration-ms="634">
+      <class name="Runner.runner$Runn">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.runner$Runn@c33b74f]" started-at="2022-11-04T21:00:17 IST" name="setUpClass" finished-at="2022-11-04T21:00:18 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner$Runn@c33b74f]" started-at="2022-11-04T21:00:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-04T21:00:18 IST" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Able to delete the Data from Database"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[DELETEBYID request]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner$Runn@c33b74f]" started-at="2022-11-04T21:00:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-04T21:00:18 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User want to read the data from data base"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[GetAll Request]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner$Runn@c33b74f]" started-at="2022-11-04T21:00:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-04T21:00:18 IST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user want to see the data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[GetBy Price Request]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner$Runn@c33b74f]" started-at="2022-11-04T21:00:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-04T21:00:18 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User want to read the data by the name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[getByName Request]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner$Runn@c33b74f]" started-at="2022-11-04T21:00:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-04T21:00:18 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["fetch the data by the ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[GetById request]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runner$Runn@c33b74f]" started-at="2022-11-04T21:00:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-04T21:00:18 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user want to create party hall"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[post request]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.runner$Runn@c33b74f]" started-at="2022-11-04T21:00:18 IST" name="tearDownClass" finished-at="2022-11-04T21:00:18 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.runner$Runn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
